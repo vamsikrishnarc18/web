@@ -13,8 +13,6 @@ function App() {
   }
 
   const evaluate = (input) => {
-   
-
     try {
       // ensure a space after return and evaluate the expression safely
       const res = new Function(' return ' + input)();
